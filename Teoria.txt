@@ -1,0 +1,41 @@
+Django
+
+É um framework escrito em python
+
+Facilita a criação de aplicações web
+Projetado para orientação a conteúdo
+
+Preve uma estrutura para uso de banco de dado
+
+Facilita operações CRUD
+
+Possui uma interface de Administrador
+
+Voltado a segurança
+
+Utiliza arquitetura MVT - Model View Template
+
+Possui diversas estruturas nativas
+
+Possibilita que o fronend e o backend rodem no mesmo lugar - Fullstack
+
+------- Para ativar o Ambiente Virtual -------
+
+venv\Scripts\Activate
+    Caso não funcione, o shell deve ser executado como admin ou deve ser digitado "  Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser"
+
+------- Para desativar o Ambiente Virtual -------
+
+deactivate
+
+------- Para Começar o projeto pela primeira vez -------
+
+django-admin startproject <nome_do_projeto> . - nome do projeto foi definido como "setup" por boas praticas, mantém toda configuração relacionada ao projeto
+
+------- Para Executar o servidor -------
+
+python .\manage.py runserver
+
+------- Arquivo manage.py -------
+
+Responsável pela maiorias dos comandos no Django, também reposnsável por subir o servidor
