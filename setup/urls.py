@@ -14,8 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+# from galeria.views import index # Importa a função index para que seja possível responder a requisição
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('galeria.urls')), # Possibilita que as urls da geleria sejam chamadas de um unico lugar - Ajuda na organização do projeto
 ]

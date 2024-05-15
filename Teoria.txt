@@ -39,3 +39,17 @@ python .\manage.py runserver
 ------- Arquivo manage.py -------
 
 Responsável pela maiorias dos comandos no Django, também reposnsável por subir o servidor
+
+------- Para Começar o App pela primeira vez -------
+
+python .\manage.py startapp <Nome_do_App> - nome do primeiro app é "galeria"
+
+Apps são partes do projeto
+
+
+galeria/views.py - Informações a serem exibidas, o que vai ser renderizado
+
+
+------- Para que arquivos estático sejam reconhecido deve ser usado o comando abaixo -------
+
+python .\manage.py collectstatic
